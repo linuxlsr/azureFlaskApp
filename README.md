@@ -7,3 +7,7 @@ completed the following (note as branches):
 hello_world
 templates
 web_forms
+
+issues:
+python-dotenv not working, had to add vars to .zshrc or set manually
+
