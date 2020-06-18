@@ -3,4 +3,7 @@ Using this tutorial, building app for testing deployment of an API in Azure envi
 
 This will likely be a hand typed copy of https://github.com/miguelgrinberg/microblog
 
-
+completed the following (note as branches):
+hello_world
+templates
+web_forms

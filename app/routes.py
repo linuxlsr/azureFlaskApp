@@ -17,12 +17,8 @@ def index():
         }
     ]
     return render_template('index.html', title=title, user=user, posts=posts)
-    # return '''
-    # <html>
-    #     <head>
-    #         <title>Home Page - Microblog</title>
-    #     <head>
-    #     <body>
-    #         <h1>Hello, ''' +user['username'] + '''!</h1>
-    #     </body>
-    # <html>'''
+
+@app.route('/login')
+def login():
+    form = LoginForm()
+    return render_template('login.html', title='Sign In', form=form)
