@@ -3,9 +3,8 @@ LABEL maintainer="soops@ucla.edu"
 RUN apk update && apk upgrade
 RUN apk add python3 py3-pip
 RUN pip3 install flask
+EXPOSE 5000
+COPY microblog .
+RUN export FLASK_APP=microblog.py
 
-COPY python/app .
-
-RUN export FLASK_APP=app
-
-ENTRYPOINT ["flask run --host=0.0.0.0"]
+ENTRYPOINT ["/usr/bin/flask", "run", "--host=0.0.0.0"]
