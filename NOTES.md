@@ -3,3 +3,8 @@ Challenges so far:
 - Brave browser keeps adding a trailing slash to the url when connected to a local host port, but not when the app is run locally.
 Issue is not reproducible in Chrome, so that's fun...
 -
+
+
+Ahas so far:
+- flask shell
+- found there is a flask base image...

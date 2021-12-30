@@ -2,7 +2,6 @@
 FROM python:3.9-slim
 LABEL maintainer="soops@ucla.edu"
 
-
 EXPOSE 5000
 
 COPY microblog .
@@ -12,7 +11,6 @@ COPY microblog .
 #RUN apk add build-base python3 py3-pip
 #RUN apk add --no-cache supervisor
 RUN pip3 install -r requirements.txt
-
 
 RUN export FLASK_APP=microblog.py
 
