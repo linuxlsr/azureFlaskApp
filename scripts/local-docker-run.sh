@@ -1,0 +1,1 @@
+docker run -it --rm -p 5050:5000 local/app
