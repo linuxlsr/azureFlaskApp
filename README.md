@@ -4,5 +4,3 @@ Using this tutorial, building app for testing deployment of an API in Azure envi
 - [Tutorial Github](https://github.com/miguelgrinberg/microblog)
 
 
-
-
